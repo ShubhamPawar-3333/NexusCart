@@ -1,0 +1,11 @@
+# Product Service Configuration
+server:
+  port: 8083
+
+spring:
+  application:
+    name: product-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/product_db
+    username: nexuscart
+    password: nexuscart123
