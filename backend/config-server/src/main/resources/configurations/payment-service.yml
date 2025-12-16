@@ -1,0 +1,11 @@
+# Payment Service Configuration
+server:
+  port: 8086
+
+spring:
+  application:
+    name: payment-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/payment_db
+    username: nexuscart
+    password: nexuscart123

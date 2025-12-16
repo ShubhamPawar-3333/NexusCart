@@ -1,0 +1,11 @@
+# Order Service Configuration
+server:
+  port: 8085
+
+spring:
+  application:
+    name: order-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/order_db
+    username: nexuscart
+    password: nexuscart123
